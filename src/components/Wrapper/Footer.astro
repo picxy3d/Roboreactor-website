@@ -1,0 +1,77 @@
+---
+import { Icon } from "astro-icon"; //https://icones.js.org
+import DBDregistered from "../../assets/main/DBDregistered.png";
+import StripeLogo from "../../assets/main/StripeLogo.png";
+---
+
+<footer class="footer p-10 bg-neutral text-neutral-content">
+  <div>
+    <span class="footer-title">Copyright</span>
+    <p>
+      roboreactor all right reserved
+      <br />
+      2021-present
+      <br />
+      <br />
+      <a class="link link-hover" href="/docs/privacypolicy/">
+        Refund and privacy policy
+      </a>
+    </p>
+  </div>
+  <div>
+    <span class="footer-title">Address</span>
+    Number: 10/2
+    <br />
+    Alley: Preedee phranomyong2 phrakhanong
+    <br />
+    Road: Sukhumvit71
+    <br />
+    District: Watthana
+    <br />
+    City: Bangkok
+    <br />
+    Country: Thailand
+    <br />
+    Postoffice code: 10110
+  </div>
+  <div>
+    <span class="footer-title">Contacts</span>
+    support@idatabots.com
+    <br />
+    +66970762483
+  </div>
+  <div>
+    <span class="footer-title">Social</span>
+    <div class="grid grid-flow-col">
+      <a
+        href="https://discord.com/invite/guGDf24nrF"
+        class="btn btn-circle btn-ghost"
+      >
+        <Icon width="24" name="ic:baseline-discord" />
+      </a>
+      <a
+        href="https://www.facebook.com/groups/496935899075410/?ref=share"
+        class="btn btn-circle btn-ghost"
+      >
+        <Icon width="24" name="ic:baseline-facebook" />
+      </a>
+      <a
+        href="https://github.com/Roboreactor/"
+        class="btn btn-circle btn-ghost"
+      >
+        <Icon width="24" name="mdi:github" />
+      </a>
+    </div>
+  </div>
+  <div>
+    <span class="footer-title">Payment</span>
+    <div class="grid grid-flow-col">
+      <a href="/pricing/" class="btn btn-ghost">
+        <Icon width="45" name="cib:stripe" />
+      </a>
+    </div>
+  </div>
+  <div class="w-60 grid grid-flow-row">
+    <img src={DBDregistered} alt="DBDregistered" />
+  </div>
+</footer>

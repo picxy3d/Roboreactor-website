@@ -1,0 +1,178 @@
+---
+import Wrapper from "../components/Wrapper/Wrapper.astro";
+import { Icon } from "astro-icon"; //https://icones.js.org
+---
+
+<Wrapper title="Pricing">
+  <div class="hero min-h-screen bg-base-200">
+    <div class="hero-content flex-col">
+      <div class="stats shadow">
+        <div class="stat">
+          <div class="stat-figure text-secondary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block w-8 h-8 stroke-current"
+              ><path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path></svg
+            >
+          </div>
+          <div class="stat-title">Downloads</div>
+          <div class="stat-value">31K</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-figure text-secondary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block w-8 h-8 stroke-current"
+              ><path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+              ></path></svg
+            >
+          </div>
+          <div class="stat-title">New Users</div>
+          <div class="stat-value">4,200</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-figure text-secondary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block w-8 h-8 stroke-current"
+              ><path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+              ></path></svg
+            >
+          </div>
+          <div class="stat-title">New Registers</div>
+          <div class="stat-value">1,200</div>
+        </div>
+      </div>
+      <div class="hero-content flex-col lg:flex-row">
+        <div
+          class="card w-96 bg-base-100 shadow-xl hover:scale-105 ease-in duration-500"
+        >
+          <figure>
+            <img
+              class="w-96"
+              src="https://avatars.githubusercontent.com/u/118678022?s=400&u=b041c73c56a8bc3dfb8727426ec7fbc81da2c72e&v=4"
+              alt="RoboreactorLogo"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Hobbyist</h2>
+            <p>
+              <Icon class="inline" width="17" name="ic:baseline-account-box" />
+              One account
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Code generate python code
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Basic hobbyist electronic
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Industrial use single board computer
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Basic AI and basic model
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">937THB/month</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card w-96 bg-base-100 shadow-xl hover:scale-105 ease-in duration-500"
+        >
+          <figure>
+            <img
+              class="w-96"
+              src="https://avatars.githubusercontent.com/u/118678022?s=400&u=b041c73c56a8bc3dfb8727426ec7fbc81da2c72e&v=4"
+              alt="RoboreactorLogo"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Professional <div class="badge badge-secondary">Coming soon</div>
+            </h2>
+            <p>
+              <Icon class="inline" width="17" name="ic:baseline-account-box" />
+              One account
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Code generate golang code
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Professional electronic components control
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Radar and lidar
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-outline pointer-events-none">
+                1336THB/month
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card w-96 bg-base-100 shadow-xl hover:scale-105 ease-in duration-500"
+        >
+          <figure>
+            <img
+              class="w-96"
+              src="https://avatars.githubusercontent.com/u/118678022?s=400&u=b041c73c56a8bc3dfb8727426ec7fbc81da2c72e&v=4"
+              alt="RoboreactorLogo"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Enterprise <div class="badge badge-secondary">Coming soon</div>
+            </h2>
+            <p>
+              <Icon class="inline" width="17" name="ic:baseline-account-box" />
+              One account
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Code generate C++ and Rust code
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Advance AI model
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Enterprise electronic components control
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Radar and lidar and advance sensor fusion
+              <br />
+              <Icon class="inline" width="17" name="ic:baseline-check-box" />
+              Realtime visualise sensor and data
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-outline pointer-events-none">
+                1678THB/month
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Wrapper>

@@ -1,0 +1,11 @@
+---
+import Wrapper from "../components/Wrapper/Wrapper.astro";
+import MdLayout from "./MdLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<Wrapper title={frontmatter.title}>
+  <MdLayout>
+    <slot />
+  </MdLayout>
+</Wrapper>
