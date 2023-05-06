@@ -1,10 +1,8 @@
----
-import { Icon } from "astro-icon"; //https://icones.js.org
-import DBDregistered from "../../assets/main/DBDregistered.png";
-import StripeLogo from "../../assets/main/StripeLogo.png";
----
+<script>
+    import DBDregistered from '../../assets/main/DBDregistered.png'
+</script>
 
-<footer class="footer p-10 bg-neutral text-neutral-content">
+<footer class="footer z-50 bg-neutral p-10 text-neutral-content border-t-[0.5px] border-neutral-content/10">
   <div>
     <span class="footer-title">Copyright</span>
     <p>
@@ -13,7 +11,7 @@ import StripeLogo from "../../assets/main/StripeLogo.png";
       2021-present
       <br />
       <br />
-      <a class="link link-hover" href="/docs/privacypolicy/">
+      <a rel="prefetch" class="link-hover link" href="/docs/privacypolicy/">
         Refund and privacy policy
       </a>
     </p>
@@ -44,34 +42,37 @@ import StripeLogo from "../../assets/main/StripeLogo.png";
     <span class="footer-title">Social</span>
     <div class="grid grid-flow-col">
       <a
+      rel="prefetch"
         href="https://discord.com/invite/guGDf24nrF"
-        class="btn btn-circle btn-ghost"
+        class="btn-ghost btn-circle btn-sm btn"
       >
-        <Icon width="24" name="ic:baseline-discord" />
+        <span class="icon-[ic--baseline-discord] w-6 h-6"></span>
       </a>
       <a
+      rel="prefetch"
         href="https://www.facebook.com/groups/496935899075410/?ref=share"
-        class="btn btn-circle btn-ghost"
+        class="btn-ghost btn-circle btn-sm btn"
       >
-        <Icon width="24" name="ic:baseline-facebook" />
+        <span class="icon-[ic--baseline-facebook] w-6 h-6"></span>
       </a>
       <a
+      rel="prefetch"
         href="https://github.com/Roboreactor/"
-        class="btn btn-circle btn-ghost"
+        class="btn-ghost btn-circle btn-sm btn"
       >
-        <Icon width="24" name="mdi:github" />
+        <span class="icon-[mdi--github] w-6 h-6"></span>
       </a>
     </div>
   </div>
   <div>
     <span class="footer-title">Payment</span>
     <div class="grid grid-flow-col">
-      <a href="/pricing/" class="btn btn-ghost">
-        <Icon width="45" name="cib:stripe" />
+      <a rel="prefetch" href="/pricing/" class="btn-ghost btn-sm btn">
+        <span class="icon-[cib--stripe] w-12 h-6"></span>
       </a>
     </div>
   </div>
-  <div class="w-60 grid grid-flow-row">
+  <div class="grid w-60 grid-flow-row">
     <img src={DBDregistered} alt="DBDregistered" />
   </div>
 </footer>
