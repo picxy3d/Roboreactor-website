@@ -8,7 +8,7 @@
 	<title>Roboreactor</title>
 </svelte:head>
 
-<div class="hero min-h-screen">
+<div class="hero">
 	<div class="hero-content text-center">
 		<div class="max-w-5xl">
 			<Saos animation={'swing-in-top 1s'}>
