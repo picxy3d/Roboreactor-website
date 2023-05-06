@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="navbar sticky top-0 z-50 bg-base-300 bg-opacity-70 backdrop-blur backdrop-filter px-8 h-18 border-b-[0.5px] border-base-content/20"
+  class="navbar sticky top-0 z-50 bg-base-300/70 backdrop-blur backdrop-filter px-8 h-18 border-b-[0.5px] border-base-content/20"
 >
   <div class="navbar-start">
     <div class="dropdown">

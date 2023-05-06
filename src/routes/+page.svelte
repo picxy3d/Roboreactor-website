@@ -61,7 +61,7 @@
 	</div>
 </div>
 
-<div class="hero bg-base-100">
+<div class="hero bg-base-100 ">
 	<div class="hero-content flex-col lg:flex-row">
 		<Saos animation={'fade-in-top 1s'}>
 			<div class="stats shadow">
@@ -102,9 +102,9 @@
 />
 
 <Featuresandbox
-	title="Motion controll"
-	description="we have motion planning to connect with your robot remotely via our fast IoT system,
-					allowing you to control the robot's motion system faster from anywhere. This allows you to
+	title="Motion controll and navigation visualizer"
+	description="we have motion planning and navigation visualizer to connect with your robot remotely via our fast IoT system,
+					allowing you to control the robot's  faster from anywhere. This allows you to
 					run the robot under development with no gap in distances."
 	link="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
 />
@@ -116,7 +116,7 @@
 		<div class="max-w-5xl">
 			<Saos animation={'fade-in-top 1s'}>
 				<p class="pb-6 text-4xl font-bold text-base-content duration-1000">
-					Start create your robotics product and automation system 
+					Start create your robotics product and automation system now! 
 				</p>
 			</Saos>
 			<Saos animation={'fade-in-top 1.5s'}>
