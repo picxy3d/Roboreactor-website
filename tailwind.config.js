@@ -22,7 +22,7 @@ module.exports = {
 					'75%': {
 						transform: 'translate(-27px, -20px) scale(0.9)'
 					}
-        }
+				}
 			}
 		}
 	},

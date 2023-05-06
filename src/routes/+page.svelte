@@ -61,7 +61,7 @@
 	</div>
 </div>
 
-<div class="hero bg-base-100 ">
+<div class="hero bg-base-100">
 	<div class="hero-content flex-col lg:flex-row">
 		<Saos animation={'fade-in-top 1s'}>
 			<div class="stats shadow">
@@ -84,10 +84,10 @@
 		<div class="max-w-lg">
 			<Saos animation={'fade-in-right 1s'}>
 				<p class="py-6">
-					Roboreactor is a platform that allows you to construct robotic and automation
-					systems more quickly and with greater capabilities. It enables you to control
-					general-purpose mobile computers in order to quickly develop robotics and automation
-					systems while reducing complexity.in tasks.
+					Roboreactor is a platform that allows you to construct robotic and automation systems more
+					quickly and with greater capabilities. It enables you to control general-purpose mobile
+					computers in order to quickly develop robotics and automation systems while reducing
+					complexity.in tasks.
 				</p>
 			</Saos>
 		</div>
@@ -109,14 +109,16 @@
 	link="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
 />
 
-<Pricing/>
+<div class="mt-10" />
+
+<Pricing />
 
 <div class="hero h-fit">
 	<div class="hero-content my-10 text-center">
 		<div class="max-w-5xl">
 			<Saos animation={'fade-in-top 1s'}>
 				<p class="pb-6 text-4xl font-bold text-base-content duration-1000">
-					Start create your robotics product and automation system now! 
+					Start create your robotics product and automation system now!
 				</p>
 			</Saos>
 			<Saos animation={'fade-in-top 1.5s'}>

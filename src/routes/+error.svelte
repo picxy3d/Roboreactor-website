@@ -1,4 +1,5 @@
 <script>
+	import Saos from 'saos';
 	import { page } from '$app/stores';
 </script>
 
@@ -9,11 +10,13 @@
 <div class="hero min-h-screen">
 	<div class="hero-content text-center">
 		<div class="max-w-5xl">
-			<i
-				class="bg-gradient-to-r from-primary to-secondary bg-clip-text py-6 text-6xl font-bold text-transparent text-transparent"
-			>
-				{$page.error.message}
-			</i>
+			<Saos animation={'fade-in-bottom 1s'}>
+				<i
+					class="bg-gradient-to-r from-primary to-secondary bg-clip-text py-6 text-6xl font-bold text-transparent text-transparent"
+				>
+					{$page.error.message}
+				</i>
+			</Saos>
 		</div>
 	</div>
 </div>
