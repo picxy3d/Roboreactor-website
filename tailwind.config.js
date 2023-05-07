@@ -37,7 +37,7 @@ module.exports = {
 		prefix: '',
 		darkTheme: 'night',
 		themes: [
-			'winter',
+			'light',
 			'night'
 			// {
 			//   roboreactor: {

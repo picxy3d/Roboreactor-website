@@ -13,7 +13,7 @@
 		<div class="max-w-5xl">
 			<Saos animation={'swing-in-top 1s'}>
 				<a
-					class="badge border-[0.5px] border-base-content/20 bg-base-100/10 py-4 duration-500 hover:shadow-inner hover:shadow-accent/20"
+					class="badge border-[0.5px] border-base-content/20 bg-base-100/10 py-4 text-base-content duration-500 hover:shadow-inner hover:shadow-accent/20"
 					href="https://github.com/roboreactor/genflow-mini"
 				>
 					Introducing Genflow Mini
