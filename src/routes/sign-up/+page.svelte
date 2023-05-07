@@ -2,6 +2,10 @@
 	import Saos from 'saos';
 </script>
 
+<svelte:head>
+	<title>Sign-up</title>
+</svelte:head>
+
 <div class="hero min-h-screen">
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<Saos animation={'fade-in-left 1s'}>
@@ -12,10 +16,15 @@
 					fast code generation, component management, motion planning, IoT connectivity, and UDP
 					communication. Experience hassle-free and efficient development today.
 				</p>
+				<p class="max-w-lg pb-6">
+					Already have an account? <a class="link-primary link" href="/login">Log in.</a>
+				</p>
 			</div>
 		</Saos>
 		<Saos animation={'fade-in-bottom 1s'}>
-			<div class="card w-screen max-w-sm flex-shrink-0 bg-base-100 shadow shadow-primary/20">
+			<div
+				class="card w-screen max-w-sm flex-shrink-0 bg-base-100 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20"
+			>
 				<div class="card-body">
 					<div class="form-control">
 						<label class="label" for="first name">

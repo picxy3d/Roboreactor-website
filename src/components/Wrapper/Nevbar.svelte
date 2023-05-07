@@ -28,12 +28,12 @@
 			<ul tabindex="-1" class="dropdown-content menu menu-compact mt-3 w-52 bg-base-100 p-2 shadow">
 				{#each routes_entries as [key, value]}
 					<li>
-						<a rel="prefetch" href={value}>{key}</a>
+						<a href={value}>{key}</a>
 					</li>
 				{/each}
 			</ul>
 		</div>
-		<a rel="prefetch" class="btn-ghost btn mr-14" href="/">
+		<a class="btn-ghost btn mr-14" href="/">
 			<svg viewBox="0 0 1380 1680" class="w-[28px] drop-shadow-md">
 				<path class="fill-primary" d={RoboreactorLogoPath} />
 			</svg>
@@ -44,13 +44,13 @@
 		<ul class="menu menu-horizontal px-1">
 			{#each routes_entries as [key, value]}
 				<li>
-					<a rel="prefetch" href={value}>{key}</a>
+					<a href={value}>{key}</a>
 				</li>
 			{/each}
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a rel="prefetch" class="btn-ghost btn" href="/login/">login</a>
-		<a rel="prefetch" class="btn-outline btn ml-2" href="/sign-up/">sign-up</a>
+		<a class="btn-ghost btn" href="/login/">login</a>
+		<a class="btn-outline btn ml-2" href="/sign-up/">sign-up</a>
 	</div>
 </div>

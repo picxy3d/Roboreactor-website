@@ -13,7 +13,7 @@
 		<div class="max-w-5xl">
 			<Saos animation={'swing-in-top 1s'}>
 				<a
-					class="badge border-[0.5px] border-base-content/20 bg-base-100 py-4 duration-500 hover:shadow-inner hover:shadow-accent/20"
+					class="badge border-[0.5px] border-base-content/20 bg-base-100/10 py-4 duration-500 hover:shadow-inner hover:shadow-accent/20"
 					href="https://github.com/roboreactor/genflow-mini"
 				>
 					Introducing Genflow Mini
@@ -46,7 +46,7 @@
 			</Saos>
 			<Saos animation={'fade-in-bottom 1s'}>
 				<div
-					class="mockup-window my-10 aspect-square w-full border-2 border-base-300 bg-base-300/50 lg:aspect-video"
+					class="mockup-window my-10 aspect-square w-full border-2 border-base-300 bg-base-300/50 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20 lg:aspect-video"
 				>
 					<iframe
 						src="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
@@ -114,7 +114,7 @@
 <Pricing />
 
 <div class="hero h-fit">
-	<div class="hero-content my-10 text-center">
+	<div class="hero-content mb-24 mt-10 text-center">
 		<div class="max-w-5xl">
 			<Saos animation={'fade-in-top 1s'}>
 				<p class="pb-6 text-4xl font-bold text-base-content duration-1000">

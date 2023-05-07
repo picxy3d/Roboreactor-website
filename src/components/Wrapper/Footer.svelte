@@ -13,9 +13,7 @@
 			2021-present
 			<br />
 			<br />
-			<a rel="prefetch" class="link-hover link" href="/docs/privacypolicy/">
-				Refund and privacy policy
-			</a>
+			<a class="link-hover link" href="/privacypolicy"> Refund and privacy policy </a>
 		</p>
 	</div>
 	<div>
@@ -43,25 +41,16 @@
 	<div>
 		<span class="footer-title">Social</span>
 		<div class="grid grid-flow-col">
-			<a
-				rel="prefetch"
-				href="https://discord.com/invite/guGDf24nrF"
-				class="btn-ghost btn-sm btn-circle btn"
-			>
+			<a href="https://discord.com/invite/guGDf24nrF" class="btn-ghost btn-sm btn-circle btn">
 				<span class="icon-[ic--baseline-discord] h-6 w-6" />
 			</a>
 			<a
-				rel="prefetch"
 				href="https://www.facebook.com/groups/496935899075410/?ref=share"
 				class="btn-ghost btn-sm btn-circle btn"
 			>
 				<span class="icon-[ic--baseline-facebook] h-6 w-6" />
 			</a>
-			<a
-				rel="prefetch"
-				href="https://github.com/Roboreactor/"
-				class="btn-ghost btn-sm btn-circle btn"
-			>
+			<a href="https://github.com/Roboreactor/" class="btn-ghost btn-sm btn-circle btn">
 				<span class="icon-[mdi--github] h-6 w-6" />
 			</a>
 		</div>
@@ -69,12 +58,14 @@
 	<div>
 		<span class="footer-title">Payment</span>
 		<div class="grid grid-flow-col">
-			<a rel="prefetch" href="/pricing/" class="btn-ghost btn-sm btn">
+			<a href="/pricing/" class="btn-ghost btn-sm btn">
 				<span class="icon-[cib--stripe] h-6 w-12" />
 			</a>
 		</div>
 	</div>
-	<div class="grid w-60 grid-flow-row">
-		<img src={DBDregistered} alt="DBDregistered" />
+	<div class="grid grid-flow-row">
+		<div class="btn-ghost btn pointer-events-none h-fit w-fit">
+			<img src={DBDregistered} alt="DBDregistered" class="w-60" />
+		</div>
 	</div>
 </footer>

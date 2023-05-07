@@ -3,6 +3,10 @@
 	import LoginForm from './LoginForm.svelte';
 </script>
 
+<svelte:head>
+	<title>Login</title>
+</svelte:head>
+
 <div class="hero min-h-screen">
 	<div class="hero-content flex-col lg:flex-row-reverse">
 		<Saos animation={'fade-in-left 1s'}>

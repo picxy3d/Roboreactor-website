@@ -22,7 +22,7 @@
 </script>
 
 <form
-	class="card w-screen max-w-sm flex-shrink-0 bg-base-100 shadow shadow-primary/20"
+	class="card w-screen max-w-sm flex-shrink-0 bg-base-100 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20"
 	on:submit|preventDefault={formSubmitHandler}
 >
 	<div class="card-body">

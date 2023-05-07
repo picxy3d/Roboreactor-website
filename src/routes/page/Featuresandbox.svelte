@@ -14,7 +14,7 @@
 			</Saos>
 			<Saos animation={'fade-in-bottom 1s'}>
 				<div
-					class="mockup-window mt-10 aspect-square w-full border-2 border-base-300 bg-base-300/50 lg:aspect-video"
+					class="mockup-window mt-10 aspect-square w-full border-2 border-base-300 bg-base-300/50 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20 lg:aspect-video"
 				>
 					<iframe
 						src={link}

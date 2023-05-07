@@ -14,13 +14,13 @@ module.exports = {
 						transform: 'translate(0, 0) scale(1)'
 					},
 					'25%': {
-						transform: 'translate(30px, -60px) scale(1.1)'
+						transform: 'translate(30px, -60px) scale(1.2)'
 					},
 					'50%': {
 						transform: 'translate(0, 12px) scale(1)'
 					},
 					'75%': {
-						transform: 'translate(-27px, -20px) scale(0.9)'
+						transform: 'translate(-27px, -20px) scale(0.8)'
 					}
 				}
 			}
