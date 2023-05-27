@@ -3,6 +3,7 @@
 	import Featuresandbox from './page/Featuresandbox.svelte';
 	import Pricing from './page/Pricing.svelte';
 	import Whyroboreactor from './page/Whyroboreactor.svelte';
+	import projectpageIMG from './page/img/projectpageIMG.jpg';
 </script>
 
 <svelte:head>
@@ -67,20 +68,61 @@
 <Featuresandbox
 	title="1. Create a project"
 	description="Build the hardware for your robot and automation system. Create a project token and configure your device specifications by logging in and visiting the project page. "
-	link="https://roboreactor.com/demo"
-/>
+>
+	<img src={projectpageIMG} alt="projectpage" class=" h-full w-full" />
+</Featuresandbox>
 
 <Featuresandbox
 	title="2. Generate code"
 	description="Download and flash the genflow image to your single board computer. You can now produce code for your robot single board computer extremely quickly with the Roboreactor node generator without having to write code or understand low level algorithm."
-	link="https://roboreactor.com/demo"
-/>
+>
+	<iframe
+		src="https://roboreactor.com/demo"
+		title="sandbox"
+		style="visibility:hidden; "
+		onload="this.style.visibility = 'visible'; "
+		class="h-full w-full"
+	/>
+</Featuresandbox>
+
+<Featuresandbox
+	title=""
+	description="Using our urdf editor, you can upload and construct your cad model, as well as add motion joints, to design the motion system. You can now use our node generator to program and visualize it in real time with our motion control."
+>
+	<iframe
+		src="https://roboreactor.com/create_urdf/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
+		title="sandbox"
+		style="visibility:hidden; "
+		onload="this.style.visibility = 'visible'; "
+		class="h-full w-full"
+	/>
+</Featuresandbox>
 
 <Featuresandbox
 	title="3. Controlling and visualizing"
-	description="You can upload your cad model to our motion planning and navigation visualizer to remotely connect with your robot utilizing our rapid IoT system, allowing you to operate your robot's real-time from anywhere. It enables you to run the robot in development mode with no gaps in between."
-	link="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
-/>
+	description="with our motion control you can remotely connect with your robot utilizing our rapid IoT system, allowing you to operate your robot's real-time from anywhere. It enables you to run the robot in development mode with no gaps in between."
+>
+	<iframe
+		src="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
+		title="sandbox"
+		style="visibility:hidden; "
+		onload="this.style.visibility = 'visible'; "
+		class="h-full w-full"
+	/>
+</Featuresandbox>
+
+<Featuresandbox
+	title=""
+	description="You can view the point cloud map that your robot scans in real time with lidar radar or a camera using our navigation visualizer. You can also monitor where your robot traveled and sync multiple robots to form a swarm."
+>
+	<iframe
+		src="https://roboreactor.com/Navigation_system/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
+		title="sandbox"
+		style="visibility:hidden; "
+		onload="this.style.visibility = 'visible'; "
+		class="h-full w-full"
+	/>
+</Featuresandbox>
 
 <div class="mt-10" />
 
