@@ -2,6 +2,7 @@
 	import Saos from 'saos';
 	import Featuresandbox from './page/Featuresandbox.svelte';
 	import Pricing from './page/Pricing.svelte';
+	import Whyroboreactor from './page/Whyroboreactor.svelte';
 </script>
 
 <svelte:head>
@@ -61,51 +62,23 @@
 	</div>
 </div>
 
-<div class="hero bg-base-100">
-	<div class="hero-content flex-col lg:flex-row">
-		<Saos animation={'fade-in-top 1s'}>
-			<div class="stats shadow">
-				<div class="stat">
-					<div class="stat-title">Downloads</div>
-					<div class="stat-value">31K</div>
-				</div>
-
-				<div class="stat">
-					<div class="stat-title">New Users</div>
-					<div class="stat-value">4,200</div>
-				</div>
-
-				<div class="stat">
-					<div class="stat-title">New Registers</div>
-					<div class="stat-value">1,200</div>
-				</div>
-			</div>
-		</Saos>
-		<div class="max-w-lg">
-			<Saos animation={'fade-in-right 1s'}>
-				<p class="py-6">
-					Roboreactor is a platform that allows you to construct robotic and automation systems more
-					quickly and with greater capabilities. It enables you to control general-purpose mobile
-					computers in order to quickly develop robotics and automation systems while reducing
-					complexity.in tasks.
-				</p>
-			</Saos>
-		</div>
-	</div>
-</div>
+<Whyroboreactor />
 
 <Featuresandbox
-	title="Node Generator"
-	description="With the Roboreactor node generator, you can generate code from the website into the robot
-				and automation system from anywhere in the world with no gap in development."
+	title="1. Create a project"
+	description="Build the hardware for your robot and automation system. Create a project token and configure your device specifications by logging in and visiting the project page. "
 	link="https://roboreactor.com/demo"
 />
 
 <Featuresandbox
-	title="Motion controll and navigation visualizer"
-	description="we have motion planning and navigation visualizer to connect with your robot remotely via our fast IoT system,
-					allowing you to control the robot's  faster from anywhere. This allows you to
-					run the robot under development with no gap in distances."
+	title="2. Generate code"
+	description="Download and flash the genflow image to your single board computer. You can now produce code for your robot single board computer extremely quickly with the Roboreactor node generator without having to write code or understand low level algorithm."
+	link="https://roboreactor.com/demo"
+/>
+
+<Featuresandbox
+	title="3. Controlling and visualizing"
+	description="You can upload your cad model to our motion planning and navigation visualizer to remotely connect with your robot utilizing our rapid IoT system, allowing you to operate your robot's real-time from anywhere. It enables you to run the robot in development mode with no gaps in between."
 	link="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="
 />
 
