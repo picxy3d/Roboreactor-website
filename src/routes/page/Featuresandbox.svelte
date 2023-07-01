@@ -13,7 +13,7 @@
 			</Saos>
 			<Saos animation={'fade-in-bottom 1s'}>
 				<div
-					class="mockup-window mt-10 aspect-video w-full border-2 border-base-300 bg-base-300/50 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20"
+					class="mockup-window mt-10 aspect-video w-full border-2 border-base-300 bg-base-200/50 shadow-xl shadow-secondary/20 duration-1000 hover:shadow-2xl hover:shadow-accent/40"
 				>
 					<slot />
 				</div>

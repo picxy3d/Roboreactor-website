@@ -6,8 +6,8 @@
 	<title>Sign-up</title>
 </svelte:head>
 
-<div class="hero min-h-screen">
-	<div class="hero-content flex-col lg:flex-row-reverse">
+<div class="hero min-h-screen ">
+	<div class="hero-content flex-col lg:flex-row-reverse my-10">
 		<Saos animation={'fade-in-left 1s'}>
 			<div class="text-center lg:text-left">
 				<h1 class="text-5xl font-bold">Register now !</h1>
@@ -23,7 +23,7 @@
 		</Saos>
 		<Saos animation={'fade-in-bottom 1s'}>
 			<div
-				class="card w-screen max-w-sm flex-shrink-0 bg-base-100 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20"
+				class="card w-screen max-w-sm flex-shrink-0 bg-base-100 shadow-xl shadow-primary/20 duration-1000 hover:shadow-2xl hover:shadow-accent/40"
 			>
 				<div class="card-body">
 					<div class="form-control">

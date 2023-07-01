@@ -37,7 +37,7 @@
 			<svg viewBox="0 0 1380 1680" class="w-[28px] drop-shadow-md">
 				<path class="fill-primary" d={RoboreactorLogoPath} />
 			</svg>
-			<div class="mt-3 text-[28px] normal-case">oboreactor</div>
+			<div class="mt-3 text-[28px] normal-case -translate-x-2">oboreactor</div>
 		</a>
 	</div>
 	<div class="navbar-center hidden lg:flex">

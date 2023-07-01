@@ -20,10 +20,10 @@
 				<th>
 					<Saos animation={'fade-in-left 1s'}>
 						<div
-							class="card w-fit bg-base-100 shadow-sm shadow-info/20 duration-1000 hover:shadow-lg hover:shadow-info/20"
+							class="card w-fit bg-base-100/50 shadow-sm shadow-info/20 duration-1000 hover:shadow-lg hover:shadow-info/20"
 						>
 							<div class="card-body">
-								<h2 class="card-title justify-center">Basic</h2>
+								<h2 class="card-title justify-center text-base-content">Basic</h2>
 								<div class="card-actions justify-center">
 									<a class="btn-outline btn-info btn" href="/sign-up">get started for free</a>
 								</div>
@@ -34,10 +34,10 @@
 				<th>
 					<Saos animation={'fade-in-left 1s'}>
 						<div
-							class="card w-fit bg-base-100 shadow-sm shadow-success/20 duration-1000 hover:shadow-lg hover:shadow-success/20"
+							class="card w-fit bg-base-100/50 shadow-sm shadow-success/20 duration-1000 hover:shadow-lg hover:shadow-success/20"
 						>
 							<div class="card-body">
-								<h2 class="card-title justify-center">
+								<h2 class="card-title justify-center text-base-content">
 									Professional
 									<div class="badge-secondary badge">30 day free trial</div>
 								</h2>
@@ -51,10 +51,10 @@
 				<th>
 					<Saos animation={'fade-in-left 1s'}>
 						<div
-							class="card w-fit bg-base-100 shadow-sm shadow-base-content/20 duration-1000 hover:shadow-lg hover:shadow-base-content/20"
+							class="card w-fit bg-base-100/50 shadow-sm shadow-base-content/20 duration-1000 hover:shadow-lg hover:shadow-base-content/20"
 						>
 							<div class="card-body">
-								<h2 class="card-title justify-center">
+								<h2 class="card-title justify-center text-base-content">
 									Enterprise
 									<div class="badge-secondary badge">Coming soon</div>
 								</h2>

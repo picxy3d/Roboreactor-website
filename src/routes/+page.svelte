@@ -15,10 +15,10 @@
 		<div class="max-w-5xl">
 			<Saos animation={'swing-in-top 1s'}>
 				<a
-					class="badge border-[0.5px] border-base-content/20 bg-base-100/10 py-4 text-base-content duration-500 hover:shadow-inner hover:shadow-accent/20"
+					class="badge border-[0.5px] border-base-content/20 bg-base-100/10 py-4 text-base-content duration-500 hover:shadow-inner hover:shadow-accent/40"
 					href="https://github.com/roboreactor/genflow-mini"
 				>
-					Introducing Genflow Mini
+					🎉 Introducing Genflow Mini 
 					<span class="icon-[material-symbols--arrow-forward-ios-rounded] ml-2 h-3 w-3" />
 				</a>
 			</Saos>
@@ -26,7 +26,7 @@
 				<p class="py-6 text-5xl font-bold text-base-content duration-1000 md:text-6xl">
 					The world's your automation playground with
 					<i
-						class="bg-gradient-to-r from-primary to-secondary bg-clip-text py-6 text-5xl font-bold text-transparent text-transparent duration-1000 md:text-6xl"
+						class="bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text py-6 text-5xl font-bold text-transparent duration-1000 md:text-6xl"
 					>
 						Roboreactor
 					</i>
@@ -48,7 +48,7 @@
 			</Saos>
 			<Saos animation={'fade-in-bottom 1s'}>
 				<div
-					class="mockup-window my-10 aspect-square w-full border-2 border-base-300 bg-base-300/50 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20 lg:aspect-video"
+					class="mockup-window my-10 aspect-square w-full border-2 border-base-300 bg-base-200/50 shadow-xl shadow-secondary/20 duration-1000 hover:shadow-2xl hover:shadow-accent/40 lg:aspect-video"
 				>
 					<iframe
 						src="https://roboreactor.com/motion_control/eyJlbWFpbCI6Imtvcm5ib3QzODBAaG90bWFpbC5jb20iLCJwcm9qZWN0X25hbWUiOiJTbWFydF9ib3RzIn0="

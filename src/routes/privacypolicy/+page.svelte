@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="hero min-h-screen">
-	<div class="hero-content text-center">
+	<div class="hero-content text-center my-10">
 		<div class="max-w-5xl">
 			<Saos animation={'fade-in-top 1s'}>
 				<i

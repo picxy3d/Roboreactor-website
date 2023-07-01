@@ -13,7 +13,7 @@
 			2021-present
 			<br />
 			<br />
-			<a class="link-hover link" href="/privacypolicy"> Refund and privacy policy </a>
+			<a class="link-primary link" href="/privacypolicy"> Refund and privacy policy </a>
 		</p>
 	</div>
 	<div>
@@ -59,7 +59,7 @@
 		<span class="footer-title">Payment</span>
 		<div class="grid grid-flow-col">
 			<a href="/pricing/" class="btn-ghost btn-sm btn">
-				<span class="icon-[cib--stripe] h-6 w-12" />
+				<span class="icon-[cib--stripe] -translate-y-2 h-12 w-12" />
 			</a>
 		</div>
 	</div>

@@ -8,7 +8,7 @@
 
 <Saos animation={'fade-in-bottom 1s'}>
 	<div
-		class=" card w-96 bg-base-100 shadow shadow-primary/20 duration-1000 hover:shadow-lg hover:shadow-primary/20"
+		class="card w-96 bg-base-100 shadow-xl shadow-primary/20 duration-1000 hover:shadow-2xl hover:shadow-primary/40"
 	>
 		<figure>
 			<img class="w-96" src={image} alt="Logo" />
